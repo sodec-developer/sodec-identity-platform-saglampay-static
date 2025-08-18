@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'SAMobileCapture'
-  spec.version = '1.0.0'
+  spec.version = '1.0.3'
   spec.summary = 'Sodec Identity Platform SDK for iOS'
   spec.description = 'With Sodec Identity Platform, you can provide a fast and accessible solution for Digital Onboarding and KYC processes, protecting your company and your customers from fraud.'
 
@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '15.6'
 
-  spec.source = { :git => 'https://bitbucket.org/sodec/sodec-identity-platform-saglampay-static.git', :tag => '#{spec.version}' }
+  spec.source = { :git => 'https://github.com/rasitsodec/sodec-identity-platform-saglampay-static', :tag => '#{spec.version}' }
+
 
   spec.swift_version = '5.0'
 
