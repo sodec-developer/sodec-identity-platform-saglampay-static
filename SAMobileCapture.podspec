@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*][config=Release]' => 'arm64',
   }
   
-  spec.static_framework = false
+  spec.static_framework = true
   spec.dependency 'lottie-ios', '4.2.0'
   spec.dependency 'AFNetworking', '4.0.1'
   spec.dependency 'GoogleMLKit/TextRecognition', '8.0.0'
